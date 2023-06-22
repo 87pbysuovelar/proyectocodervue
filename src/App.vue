@@ -1,7 +1,5 @@
 <template>
-  <div id="app">
-    <Header />
-    <main>
+  <main>
       <section id="main">
         <img src="img/portada.jpg" class="img-fluid" alt="..." width="100%">
       </section>
@@ -78,13 +76,11 @@
         </section>
       </section>
     </main>
-    <Footer />
-  </div>
 </template>
 
 <script>
-import Header from './components/Header.vue';
-import Footer from './components/Footer.vue';
+import Header from '../components/Header.vue';
+import Footer from '../components/Footer.vue';
 import stockData from '@/assets/data/stock.json';
 
 export default {
