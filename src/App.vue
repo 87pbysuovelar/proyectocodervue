@@ -83,8 +83,8 @@
 </template>
 
 <script>
-import Header from './components/Header.vue';
-import Footer from './components/Footer.vue';
+import Header from 'src/components/Header.vue';
+import Footer from 'src/components/Footer.vue';
 import stockData from '@/assets/data/stock.json';
 
 export default {
